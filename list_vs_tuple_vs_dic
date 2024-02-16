@@ -1,0 +1,6 @@
+List Versus Tuple Versus Set Versus Dictionary
+List - Indexing - Stores Elements in order - Allows Duplicate Elements - Mutable  - []
+Tuple - Indexing - Stores Elements in order - Allows Duplicate Elements - Immutable - ()
+Set - No Indexing - Randomly stores the elements - Duplicate Elements are ignored - Mutable {}
+Dictionary - Key Value pairs - Unique Keys can have duplicate values - Mutable {}
+
