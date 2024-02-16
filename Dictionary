@@ -2,24 +2,55 @@ Dictionary
 Dictionary is one of the Collection Data Types in Python
 Dictionary stores the multiple values in Key Value pairs
 Create Dictionary using {Key:Value,Key:Value,Key:Value}
+
+car={"Brand":"Honda","Model":"Amaze","price":"6Lakhs"}
+print(car)
+
+
 Dictionary and indentation
 Print Dictionary
 Get the value of a Key 
+
 dictionary_name.get(Key)
+car={"Brand":"Honda","Model":"Amaze","price":"6Lakhs"}
+print(car.get("Brand"))
+
 dictionary_name[Key]
+car={"Brand":"Honda","Model":"Amaze","price":"6Lakhs"}
+print(car["Brand"])
+
 Printing all the keys of the Dictionary
 dictionary_name.keys()
+
+car={"Brand":"Honda","Model":"Amaze","price":"6Lakhs"}
+print(car.keys())
+
 Printing all the values of the Dictionary
 dictionary_name.values()
+
+car={"Brand":"Honda","Model":"Amaze","price":"6Lakhs"}
+print(car.values())
+
 Updating the values of the Dictionary
 dictionary_name[Key] = NewValue
-Print dictionary
+car={"Brand":"Honda","Model":"Amaze","price":"6Lakhs"}
+print(car.values())
+car["price"]=1000000
+print(car)
+
 Adding new Key, Values to the existing Dictionary
 dictionary_name[NewKey] = NewValue
 Print dictionary
+
+car={"Brand":"Honda","Model":"Amaze","price":"6Lakhs"}
+print(car.values())
+car["color"]=1000000
+print(car)
+
 Using for loop with dictionary
 for k in dictionary_name:
 print(k)
+
 for k in dictionary_name:
 print(k)
 print(dictionary_name[k])
@@ -29,6 +60,15 @@ for v in dictionary_name.values():
 print(v)
 for k,v in dictionary_name.items():
 print(k,v)
+
+car={"Brand":"Honda","Model":"Amaze","price":"6Lakhs"}
+print(car.values())
+car["color"]=1000000
+print(car)
+
+for k,v in car.items():
+    print(k,v)
+
 Other Functions we can use with Dictionary
 Removing an item having the specific key from Dictionary and returns the value of the removed key
 dictionary_name.pop(Key)
