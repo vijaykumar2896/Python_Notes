@@ -1,0 +1,45 @@
+Dictionary
+Dictionary is one of the Collection Data Types in Python
+Dictionary stores the multiple values in Key Value pairs
+Create Dictionary using {Key:Value,Key:Value,Key:Value}
+Dictionary and indentation
+Print Dictionary
+Get the value of a Key 
+dictionary_name.get(Key)
+dictionary_name[Key]
+Printing all the keys of the Dictionary
+dictionary_name.keys()
+Printing all the values of the Dictionary
+dictionary_name.values()
+Updating the values of the Dictionary
+dictionary_name[Key] = NewValue
+Print dictionary
+Adding new Key, Values to the existing Dictionary
+dictionary_name[NewKey] = NewValue
+Print dictionary
+Using for loop with dictionary
+for k in dictionary_name:
+print(k)
+for k in dictionary_name:
+print(k)
+print(dictionary_name[k])
+for k in dictionary_name:
+print(k,":",dictionary_name[k])
+for v in dictionary_name.values():
+print(v)
+for k,v in dictionary_name.items():
+print(k,v)
+Other Functions we can use with Dictionary
+Removing an item having the specific key from Dictionary and returns the value of the removed key
+dictionary_name.pop(Key)
+del dictionary_name[Key]
+Removing the last item in the Dictionary and returns the removed element
+dictionary_name.popitem()
+Remove all the key,values from the Dictionary at a go
+dictionary_name.clear()
+Find the size of the dictionary
+len(dictionary_name)
+Deleting the complete dictionary
+del dictionary_name
+Comparing Dictionary using == and !=
+Order of key value pairs doesn't matter  
