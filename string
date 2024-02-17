@@ -1,0 +1,39 @@
+Strings
+In python, you can store Strings into a variable by surrounding the text with single quotes or double quotes
+Examples:
+name = "Arun Motoori"
+location = 'Hyderabad'
+color = str("black")
+Strings work like Collection List in Python
+Examples:
+print(name[0])
+for letter in name:
+print(len(name))
+print("run" in name)
+print("run" not in name)
+Slicing Strings
+print(name[1:4]) - Index 1 to position 4
+print(name[:4]) - Index 0 to position 4
+print(name[1:]) - Index 1 to last position
+Modifying Strings
+print(name.upper())
+print(name.lower())
+print("   Arun Motoori   ".strip()) - Removing leading and trailing spaces
+print(name.replace("n","b"))
+print(name.split(" "))
+in and not in operator with String
+print("run" in "Arun")
+Strings are immutable in Python
+name = "Arun"
+print(id(name))
+name = "Motoori"
+print(id(name))
+Other String functions
+name.capitalize() - First letter of the statement will get capitalized
+name.title() - First letter of each word in the statement gets capitalized
+name.count("word") - returns the number of times the give word is available in the string
+a.find("word") - returns index if found, otherwise returns -1
+comparing strings in Python
+Using ==
+Using __eq__() function - a.__eq__(b)
+a.casefold() == b (without case comparison)
