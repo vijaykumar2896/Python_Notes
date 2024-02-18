@@ -1,0 +1,27 @@
+File Handling 
+Reading data from Files and Writing data into Files using Python.
+Opening,Writing and Closing Files
+We can open the Files in read only (r), write (w) and appending (a) modes  
+file = open("C:\\abc\\xyz.txt","w")
+file.write("My name is Arun Motoori \n")
+file.write("I am teaching Python Programming")
+file.close()
+
+
+Reading Files
+file = open("C:\\abc\\xyz.txt","r")
+print(file.read()) - All characters will be read here
+print(file.read(15)) - 15 characters will be read here
+print(file.readlines()) - Reads all the lines in the list format
+print(file.readline()) - Reads line by line but only one line
+file.close()
+
+
+Appending text to existing file content
+file = open("C:\\abc\\xyz.txt","a")
+file.write("\nPython is an easy programming language")
+file.close()
+Using for each loop for reading a file
+file = open("C:\\abc\\xyz.txt","r")
+for line in file:
+print(line)
