@@ -1,0 +1,11 @@
+Object is a real world entity
+Examples for read world entities
+We can represent real world entities as Objects in Python
+Classes in Python, can be used for creating these Objects
+Create Class in Python - class Car:
+Creating variables and functions inside the class
+Functions inside the class in Python can be called as methods
+self keyword will be explained later
+Creating Object for a Class - Car()
+Using object reference for accessing the object memory of the class - car1 = Car()
+Using object reference to access the variables and methods of the class
